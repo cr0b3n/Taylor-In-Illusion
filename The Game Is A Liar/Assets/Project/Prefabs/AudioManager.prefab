@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &302922056169763023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302922056169763021}
+  - component: {fileID: 302922056169763020}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &302922056169763021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302922056169763023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9950986, y: 2.1256177, z: -6.354089}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &302922056169763020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302922056169763023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655f66216d7a0df449cbb786693158e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepsClip: {fileID: 8300000, guid: da71b50f99cacfb41b34fd49376c8b81, type: 3}
+  jumpClip: {fileID: 8300000, guid: 4457aa177c82c554e9599bcaab1bc17c, type: 3}
+  landClip: {fileID: 8300000, guid: 82600dcc2fe329843870f046d86ce6ba, type: 3}
+  bonusClip: {fileID: 8300000, guid: bf7468ebd5bb17341b654c33906b6348, type: 3}
+  penaltyClip: {fileID: 8300000, guid: 544fa01fb36070d4e9744e8b8b047f0d, type: 3}
+  spawnClip: {fileID: 8300000, guid: 82600dcc2fe329843870f046d86ce6ba, type: 3}
+  spawnPopClip: {fileID: 8300000, guid: 6eb151e4ad3168c4883da9396ff15342, type: 3}
+  deathClip: {fileID: 8300000, guid: fe454a73789de7147a26aa9ffa6de140, type: 3}
+  goalClip: {fileID: 8300000, guid: eb1af06c4fb61b942af8cbfe92c04083, type: 3}
+  buttonAudio: {fileID: 8300000, guid: 4dd4f83c42b758c4aa9b0ea8fc5a43d4, type: 3}
+  carretAudio: {fileID: 8300000, guid: 9ad0f955218ada34d9038c19e7b3bd01, type: 3}
+  gamePlayClip: {fileID: 8300000, guid: 2378e33eaaf3fe042bc29da284b0d6fb, type: 3}
+  menuBGMClip: {fileID: 8300000, guid: 2378e33eaaf3fe042bc29da284b0d6fb, type: 3}
+  endCreditClip: {fileID: 8300000, guid: 2378e33eaaf3fe042bc29da284b0d6fb, type: 3}

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GUI
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: da975c59376ddff409cc187c5f73891a, type: 3}
+    totalSpriteSurfaceArea: 222208
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 57689eb0db094c7459f7928642e2a0f1, type: 3}
+  - {fileID: 21300000, guid: c56e9ac0c069a904a8498733391a6f62, type: 3}
+  - {fileID: 21300000, guid: 46c91532039e9c14ca0fe215a87e850c, type: 3}
+  - {fileID: 21300000, guid: 515d335312522c9458bc6fc97b92d1cc, type: 3}
+  - {fileID: 21300000, guid: 32d421e3cfd270548a63877efb2cf2ae, type: 3}
+  - {fileID: 21300000, guid: 34208fa54bf55c24aaff1dbe9d2b7432, type: 3}
+  - {fileID: 21300000, guid: 9d5af396b60819043828aa1c6634810d, type: 3}
+  - {fileID: 21300000, guid: 398ac7379c8375c46837a693d05e12ba, type: 3}
+  - {fileID: 21300000, guid: f19d76a778edc9e4e8e9d46787a1be95, type: 3}
+  - {fileID: 21300000, guid: 5a01f0f8e85ed9f48a4445a7adf8e064, type: 3}
+  - {fileID: 21300000, guid: e41ec50ac3c2c5b4688afc40819880e1, type: 3}
+  - {fileID: 21300000, guid: e952edca966d6e541a6e5b619a37bafa, type: 3}
+  - {fileID: 21300000, guid: 3b11da1c10abc8144a2f560e435aaa41, type: 3}
+  - {fileID: 21300000, guid: c8fdd79e7a1bddd47bcf5359726b1cba, type: 3}
+  - {fileID: 21300000, guid: 9786a25f9340f3044b19265faf640706, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - caretup
+  - checkpoint
+  - squarewhite
+  - exit
+  - healthbarFill
+  - home
+  - caretdown
+  - menu
+  - deathicon
+  - play
+  - credits
+  - icon
+  - howto
+  - restart
+  - back
+  m_Tag: GUI
+  m_IsVariant: 0
